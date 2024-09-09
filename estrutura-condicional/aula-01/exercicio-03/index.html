@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Gorjeta</title>
+    <link rel="stylesheet" href="../../style-global.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Calculadora de Gorjeta</h1>
+        <p>Insira o valor da conta e a qualidade do serviço para calcular a gorjeta:</p>
+
+        <input type="number" id="valorConta" placeholder="Digite o valor da conta">
+
+        <select id="qualidadeServico">
+            <option value="0">Selecione a qualidade do serviço</option>
+            <option value="0.10">Ruim - 10%</option>
+            <option value="0.15">Bom - 15%</option>
+            <option value="0.20">Excelente - 20%</option>
+        </select>
+
+        <input type="number" id="quantidadePessoa" placeholder="Digite a quantidade de pessoas para a divisão">
+
+        <button onclick="calcularGorjeta()">Calcular Gorjeta</button>
+
+       
+
+        <div id="resultado" class="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
