@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Custo de Viagem</title>
+    <link rel="stylesheet" href="../../style-global.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Custo de Viagem</h1>
+        
+        <input type="number" id="distanciaViagem" placeholder="Digite a distância da viagem (em km)">
+        <input type="number" id="consumoCarro" placeholder="Digite o consumo do carro (km por litro)">
+        <input type="number" id="precoCombustivel" placeholder="Digite o preço do combustível por litro (em R$)">
+
+        <button onclick="calcularCustoViagem()">Calcular</button>
+
+        <div id="resultado" class="result"></div>
+    </div>
+
+    <script src="script.js"></script> 
+</body>
+</html>
