@@ -4,7 +4,10 @@ document.addEventListener("DOMContentLoaded", function() {
     let tentativas = 0;
 
     function verificarPalpite() {
+        const palpite = parseInt(document.getElementById('palpite').value);
        // Crie a logica aqui!
+
+        document.getElementById('resultado').innerHTML = resultado;
     }
 
     document.getElementById('btnTentar').addEventListener('click', verificarPalpite);
