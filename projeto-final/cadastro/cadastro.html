@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Usuário</title>
+    <link rel="stylesheet" href="../global.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul id="nav-bar">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../tela-login/login.html">Login</a></li>
+            </ul>
+        </nav>
+        <h1>Cadastro de Usuário</h1>
+    </header>
+
+    <div class="form-container">
+        <form id="cadastro-form">
+            <label for="new-username">Usuário:</label>
+            <input type="text" id="new-username" placeholder="Digite seu nome de usuário" required>
+
+            <label for="new-password">Senha:</label>
+            <input type="password" id="new-password" placeholder="Digite sua senha" required>
+
+            <button type="submit">Cadastrar</button>
+        </form>
+
+        <p>Já tem uma conta? <a href="../tela-login/login.html">Faça login</a></p>
+    </div>
+
+    <script src="cadatro-script.js"></script>
+</body>
+</html>

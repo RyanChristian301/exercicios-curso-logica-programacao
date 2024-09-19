@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Promoção de Ingressos</title>
+    <link rel="stylesheet" href="../../style-global.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Verificador de Promoção de Ingressos</h1>
+        
+        <input type="number" id="idade" placeholder="Digite sua idade" min="1">
+        <label for="estudante">Possui carteira de estudante?</label>
+        <select id="estudante">
+            <option value="nao">Não</option>
+            <option value="sim">Sim</option>
+        </select>
+
+        <button id="btnVerificar">Verificar</button>
+
+        <div id="resultado" class="result"></div>
+    </div>
+
+    <script src="script.js"></script> 
+</body>
+</html>
