@@ -23,26 +23,3 @@ document.getElementById('cadastro-form')?.addEventListener('submit', function(ev
     alert('Usuário cadastrado com sucesso!');
     window.location.href = '../tela-login/login.html';
 });
-
-
-// criar lista de usuario
-const usuarios = [{ nome: 'a', senha: 1 }, { nome: 'b', senha: 2 }, { nome: 'c', senha: 3 }]
-
-for (const user of usuarios) {
-    console.log(user)
-}
-
-console.log('------------------------------------')
-
-const userNaoExistente = usuarios.find(u => u.nome === 'd')
-
-console.log(userNaoExistente)
-
-if (userNaoExistente) {
-
-} else {
-    console.log(' voce pode se cadastrar!!!!')
-}
-
-
-

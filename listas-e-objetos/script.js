@@ -43,8 +43,15 @@ console.log('filter')
 console.log(filtrados);
 console.log('---------------------------------')
 
+const lista66 = [1, 2, 3, 4];
 
-const lista7 = [1, 2, 3];
+// splice, remove um item da lista,
+// o primeiro parâmetro indica o índice(posição do item), o segundo parâmetro a quantidade de itens a remover
+lista66.splice(1,1)
+
+
+
+
 lista.forEach(num => console.log(num));
 
 
